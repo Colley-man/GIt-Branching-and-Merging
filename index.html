@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Bundle Selling Platform</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Colley Data Hub</h1>
+    </header>
+
+    <section id="bundles">
+        <h2>Available Data Bundles</h2>
+        <div class="bundle" id="bundle1">
+            <h3>Small Bundle</h3>
+            <p>1GB of data</p>
+            <p>Price: $2.00</p>
+            <button class="buy-button" onclick="buyBundle('Small Bundle', 2)">Buy Now</button>
+        </div>
+        
+        <div class="bundle" id="bundle2">
+            <h3>Medium Bundle</h3>
+            <p>5GB of data</p>
+            <p>Price: $5.00</p>
+            <button class="buy-button" onclick="buyBundle('Medium Bundle', 5)">Buy Now</button>
+        </div>
+
+        <div class="bundle" id="bundle3">
+            <h3>Large Bundle</h3>
+            <p>10GB of data</p>
+            <p>Price: $8.00</p>
+            <button class="buy-button" onclick="buyBundle('Large Bundle', 8)">Buy Now</button>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <p>No items in your cart.</p>
+        </div>
+        <div id="total-price">
+            <p>Total Price: $0.00</p>
+        </div>
+        <button id="checkout-button" onclick="checkout()">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Data Bundle Store</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
