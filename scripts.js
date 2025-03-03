@@ -5,7 +5,7 @@ const dataPackagePrices = {
     "3GB": 15,
     "5GB": 20,
     "6GB": 25,
-    "10GB": 30,
+    "10GB": 50,
     "15GB": 40,
     "20GB": 50,
     "25GB": 60,
@@ -13,11 +13,11 @@ const dataPackagePrices = {
     "35GB": 80,
     "40GB": 90,
     "45GB": 100,
-    "50GB": 110,
+    "50GB": 220,
     "60GB": 120,
     "65GB": 130,
     "70GB": 140,
-    "100GB": 150
+    "100GB": 440
 };
 
 // Function to handle the selection of a data package
